@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<BodySec />}>
+        <Route path="/Javascript-Exercise" element={<BodySec />}>
           <Route index element={<h2>Get Started !</h2>} />
           <Route path="NumberGuess" element={<NumberGuess />} />
           <Route path="Calculator" element={<Calculator />} />
