@@ -1,10 +1,13 @@
-import React from "react";
-import "../SCSS/components/Header.scss";
+import React from 'react';
+import '../SCSS/components/Header.scss';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
-    <div className='header'>
-      <h1>Header Section</h1>
+    <div className="header">
+      <NavLink to="/Javascript-Exercise">
+        <h1>Header Section</h1>
+      </NavLink>
     </div>
   );
 }

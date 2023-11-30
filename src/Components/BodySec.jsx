@@ -1,4 +1,3 @@
-import React from 'react';
 import '../SCSS/components/BodySec.scss';
 import { NavLink, Outlet } from 'react-router-dom';
 import listArry from '../assets/data';
@@ -6,14 +5,14 @@ import listArry from '../assets/data';
 function BodySec() {
   return (
     <div className="bodySec">
-      <div>
-        <nav>
-          <NavLink to="NumberGuess">Number Guess</NavLink>
-          <NavLink to="Calculator">Calculator</NavLink>
-        </nav>
-      </div>
-
-      <div>
+      <nav>
+        {listArry.map((item, i) => (
+          <NavLink key={i} to={item.to}>
+            {item.value}
+          </NavLink>
+        ))}
+      </nav>
+      <div className="outlet">
         <Outlet />
       </div>
     </div>

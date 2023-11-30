@@ -1,4 +1,37 @@
 .bodySec {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: 1fr 4fr;
+  nav {
+    display: flex;
+    flex-direction: column;
+    // border-right: 1px solid white;
+    max-height: 70vh;
+    margin: 1rem 2rem;
+    a {
+      text-decoration: none;
+      color: var(--fnt-clr);
+      padding: 0.6em;
+      border-bottom: 1px solid white;
+      &:hover {
+        color: palevioletred;
+      }
+      &:active {
+        transform: translateY(2px);
+      }
+    }
+    a.active {
+      color: seagreen;
+    }
+  }
+  .outlet {
+    text-align: center;
+    .codeBlock {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  .code {
+    display: flex;
+    flex-direction: column;
+  }
 }
