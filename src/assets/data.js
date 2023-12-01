@@ -5,6 +5,7 @@ import Calculator from '../Components/pages/Calculator';
 import LeapYear from '../Components/pages/LeapYear';
 import AreaTriangle from '../Components/pages/AreaTriangle';
 import DateTimeFormat from '../Components/pages/DateTimeFormat';
+import Timer from '../Components/pages/Timer';
 
 const listArry = [];
 function ArrayList(to, value, tag) {
@@ -16,6 +17,7 @@ new ArrayList('Calculator', 'Calculator', <Calculator />);
 new ArrayList('LeapYear', 'Leap Year', <LeapYear />);
 new ArrayList('AreaTriangle', 'Area of Triangle', <AreaTriangle />);
 new ArrayList('DateTimeFormat', 'DateTime Format', <DateTimeFormat />);
+new ArrayList('Timer', 'Timer', <Timer />);
 
 // console.log(listArry);
 
