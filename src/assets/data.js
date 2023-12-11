@@ -7,6 +7,9 @@ import AreaTriangle from '../Components/pages/AreaTriangle';
 import DateTimeFormat from '../Components/pages/DateTimeFormat';
 import Timer from '../Components/pages/Timer';
 import TodoList from '../Components/pages/TodoList';
+import QuoteGenerator from '../Components/pages/QuoteGenerator';
+import QuizApp from '../Components/pages/QuizApp';
+import AgeCalculator from '../Components/pages/AgeCalculator';
 
 const listArry = [];
 function ArrayList(to, value, tag) {
@@ -20,6 +23,9 @@ new ArrayList('AreaTriangle', 'Area of Triangle', <AreaTriangle />);
 new ArrayList('DateTimeFormat', 'DateTime Format', <DateTimeFormat />);
 new ArrayList('Timer', 'Timer', <Timer />);
 new ArrayList('TodoList', 'To-do List', <TodoList />);
+new ArrayList('QuoteGenerator', 'Quote Generator', <QuoteGenerator />);
+new ArrayList('QuizApp', 'Quiz App', <QuizApp />);
+new ArrayList('AgeCalculator', 'Age Calculator', <AgeCalculator />);
 
 // console.log(listArry);
 
