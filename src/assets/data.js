@@ -10,6 +10,7 @@ import TodoList from '../Components/pages/TodoList';
 import QuoteGenerator from '../Components/pages/QuoteGenerator';
 import QuizApp from '../Components/pages/QuizApp';
 import AgeCalculator from '../Components/pages/AgeCalculator';
+import CountNumber from '../Components/pages/CountNumber';
 
 const listArry = [];
 function ArrayList(to, value, tag) {
@@ -26,6 +27,7 @@ new ArrayList('TodoList', 'To-do List', <TodoList />);
 new ArrayList('QuoteGenerator', 'Quote Generator', <QuoteGenerator />);
 new ArrayList('QuizApp', 'Quiz App', <QuizApp />);
 new ArrayList('AgeCalculator', 'Age Calculator', <AgeCalculator />);
+new ArrayList('CountNumber', 'CountNumber', <CountNumber />);
 
 // console.log(listArry);
 
