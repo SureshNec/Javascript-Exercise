@@ -11,6 +11,7 @@ import QuoteGenerator from '../Components/pages/QuoteGenerator';
 import QuizApp from '../Components/pages/QuizApp';
 import AgeCalculator from '../Components/pages/AgeCalculator';
 import CountNumber from '../Components/pages/CountNumber';
+import BMICalc from '../Components/pages/BMICalc';
 
 const listArry = [];
 function ArrayList(to, value, tag) {
@@ -28,6 +29,7 @@ new ArrayList('QuoteGenerator', 'Quote Generator', <QuoteGenerator />);
 new ArrayList('QuizApp', 'Quiz App', <QuizApp />);
 new ArrayList('AgeCalculator', 'Age Calculator', <AgeCalculator />);
 new ArrayList('CountNumber', 'CountNumber', <CountNumber />);
+new ArrayList('BMICalc', 'BMI Calculator', <BMICalc />);
 
 // console.log(listArry);
 
