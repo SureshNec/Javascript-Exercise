@@ -13,7 +13,7 @@ function RandomImage() {
     <div>
       <h2>RandomImage</h2>
       <ul>
-        {state.map((item, i) => {
+        {state?.map((item, i) => {
           return (
             <li key={item.id}>
               {item.id}: {item.quote}
